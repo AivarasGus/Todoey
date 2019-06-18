@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		09EDC86FCCEF552E7F6D9EC9 /* Pods_Todoey.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4DB80D18EE80A74BCA48292 /* Pods_Todoey.framework */; };
+		C01CD4CC22B8E1CA0073A9BF /* SwipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01CD4CB22B8E1CA0073A9BF /* SwipeTableViewController.swift */; };
 		C023376622B6AF02000E865E /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C023376522B6AF02000E865E /* CategoryViewController.swift */; };
 		C095444622B80D1E007F1DE2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = C095444522B80D1E007F1DE2 /* Item.swift */; };
 		C095444822B80D33007F1DE2 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C095444722B80D33007F1DE2 /* Category.swift */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		7CBC2C9BA32D4AB5837D5619 /* Pods-Todoey.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoey.debug.xcconfig"; path = "Target Support Files/Pods-Todoey/Pods-Todoey.debug.xcconfig"; sourceTree = "<group>"; };
 		BA26CECC8CF591817F4B3B79 /* Pods-Todoey.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Todoey.release.xcconfig"; path = "Target Support Files/Pods-Todoey/Pods-Todoey.release.xcconfig"; sourceTree = "<group>"; };
+		C01CD4CB22B8E1CA0073A9BF /* SwipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeTableViewController.swift; sourceTree = "<group>"; };
 		C023376522B6AF02000E865E /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 		C095444522B80D1E007F1DE2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		C095444722B80D33007F1DE2 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
@@ -75,6 +77,7 @@
 		C017D29A22B666A400E1B1D9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				C01CD4CB22B8E1CA0073A9BF /* SwipeTableViewController.swift */,
 				C023376522B6AF02000E865E /* CategoryViewController.swift */,
 				C0A3439E22B41E930064A74A /* ToDoListViewController.swift */,
 			);
@@ -248,6 +251,7 @@
 				C0A3439F22B41E930064A74A /* ToDoListViewController.swift in Sources */,
 				C095444622B80D1E007F1DE2 /* Item.swift in Sources */,
 				C0A3439D22B41E930064A74A /* AppDelegate.swift in Sources */,
+				C01CD4CC22B8E1CA0073A9BF /* SwipeTableViewController.swift in Sources */,
 				C095444822B80D33007F1DE2 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
